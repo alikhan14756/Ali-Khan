@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 40, 51);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(26, 103, 85);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            font-weight: 700;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.02rem;
+        }
+
+        .main {
+            display: flex;
+            width: 75vw;
+            height: 90vh;
+            /* background-color: aliceblue; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* display: flex; */
+            transform: translateX(58px);
+        }
+
+        .left {
+            font-size: 1.5rem;
+            font-weight: 900;
+        }
+
+        h3 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 32px;
+            color: rgb(103, 207, 184);
+            padding: 12px 0px;
+        }
+
+        h1 {
+            padding: 12px 0px;
+            font-size: 50px;
+        }
+
+        p {
+            padding: 12px 0px;
+        }
+
+        .lefts {
+            margin: 60px 50px 10px 180px;
+            margin-left: -23px;
+        }
+
+        .intr {
+            font-weight: 900;
+            color: rgb(239, 184, 135);
+            display: none;
+        }
+
+        .mene {
+            padding: 0px 0px;
+            transform: translateX(-25px);
+        }
+
+        .images {
+            padding: 23px;
+            transform: translate(-76px, -362px);
+        }
+
+        p {
+            line-height: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #a8dadc;
+            width: 35vw;
+        }
+
+        @media (max-width: 515px) {
+            .rights {
+                display: none;
+
+            }
+
+            p {
+                width: 90vw;
+            }
+
+            nav ul li {
+                font-size: 15px;
+                margin: 4px;
+                padding-top: 6px;
+            }
+
+            .images {
+                display: none;
+            }
+
+            .leftSection {
+                font-size: 1rem;
+                width: 80vw;
+            }
+
+            .left {
+                font-size: 17px;
+                margin-left: 5px;
+                margin-top: 13px;
+            }
+
+            .right {
+                margin-top: 13px;
+                margin-left: -12px;
+            }
+            nav{
+                height: 60px;
+                
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ali Khan Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home </a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="rights">
+            <img style="
+            height: 80vh; width: 32vw; margin: 12px 45px;" src="zalim/develpor.png" alt="">
+        </div>
+        <div class="lefts">
+            <h3>My Intro</h3>
+            <h1>About Me</h1>
+            <p>*Hi, I’m Ali Khan*
+                A 17-year-old aspiring *web developer* from Shabqadar, passionate about creating interactive and
+                visually appealing websites using *HTML, CSS, and JavaScript. I’ve built projects like a **Netflix
+                clone, **quiz app, **QR code generator, and **3D animations*, showcasing my creativity and technical
+                skills. I’m constantly learning and eager to take on new challenges as I work toward becoming a
+                professional web developer. Let’s connect and build something amazing together!
+            <div class="intr">
+                <div><span>Name</span><span> : Ali Khan</span></div>
+                <div><span>Phone</span><span> : 03055389967</span></div>
+                <div><span>Email</span><span> : alikhan1475623@gmail.com</span></div>
+            </div>
+            <h3>My intrsets</h3>
+            <div class="mene">
+                <span style="padding: 0px 0px 0px 23px;">Coding</span>
+                <span style="padding: 0px 0px 0px 23px;">Music</span>
+                <span style="padding: 0px 0px 0px 23px;">Gaming</span>
+                <span style="padding: 0px 0px 0px 23px;">Videos</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
